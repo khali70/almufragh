@@ -2,6 +2,38 @@
 
 to add your api key watch the [tutorial](https://www.youtube.com/watch?v=aOId0-v8qzc)
 
+## contribution
+
+### getting started
+
+```sh
+npm install --save # better to user npm with this project
+
+npm run dev
+
+# or you can also use
+npm run start
+npm run electron
+```
+
+- add your api key 👉[tutorial](https://www.youtube.com/watch?v=aOId0-v8qzc)
+- try the app
+- debug
+- update
+- make a pull request
+
+to build for all platforms
+
+```sh
+npm run electron:build
+```
+
+to build for only win32
+
+```sh
+npm run build electron:build:win32
+```
+
 ## future work
 
 ### enhance segmentation of tracks
