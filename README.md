@@ -36,11 +36,12 @@ npm run build electron:build:win32
 
 ## future work
 
-### enhance segmentation of tracks
+- [ ] create test for the application
+- [ ] enhance segmentation of tracks
 
 ![tracks](./docs/تقسيم%20المقاطع%20الصوتيه.png)
 
-### hash caching tracks
+- [ ] hash caching tracks
 
 ## Bugs 🐛
 

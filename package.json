@@ -30,6 +30,7 @@
     "react-localization": "^1.0.18",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
+    "update-electron-app": "^2.0.1",
     "web-vitals": "^2.1.4"
   },
   "main": "public/main.js",
