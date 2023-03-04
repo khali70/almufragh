@@ -1,4 +1,6 @@
-require('update-electron-app')();
+require('update-electron-app')({
+  updateInterval: "5 minutes",
+});
 
 const path = require("path");
 
