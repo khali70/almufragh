@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  /* background-color: white; */
+  /* font-family: shamel, Helvetica, Arial, sans-serif; */
+min-width: 480px;
+min-height: 800px;
+   border-radius: 20px; 
+}
+
+
+
+.app-title {
+  font-family: arabic;
+  font-weight: black;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.title-bar {
+
+  -webkit-app-region: drag;
+  height: 20px;
+  width: 100%;
+
+}
+
+section
+{
+  border-radius: 0 0 50% 50%;
+  min-height: 200px;
+
+
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@font-face {
+  font-family: "arabic";
+  src: local("arabic"),
+    url(./fonts/arabic/BoutrosNewsH1-Bold.ttf) format("opentype");
+}
+@font-face {
+  font-family: "shamel";
+  src: local("arabic"), url(./fonts/arabic/shamel.ttf) format("opentype");
+}
