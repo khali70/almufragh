@@ -3,12 +3,10 @@
   /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
   /* background-color: white; */
   /* font-family: shamel, Helvetica, Arial, sans-serif; */
-min-width: 480px;
-min-height: 800px;
-   border-radius: 20px; 
+  min-width: 480px;
+  min-height: 800px;
+  border-radius: 20px;
 }
-
-
 
 .app-title {
   font-family: arabic;
@@ -19,26 +17,23 @@ min-height: 800px;
 }
 
 .title-bar {
-
   -webkit-app-region: drag;
   height: 20px;
   width: 100%;
-
 }
 
-section
-{
+section {
   border-radius: 0 0 50% 50%;
   min-height: 200px;
 
-
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
-
 }
-
+[dir="rtl"] .select {
+  @apply pr-8;
+}
 
 @keyframes App-logo-spin {
   from {
