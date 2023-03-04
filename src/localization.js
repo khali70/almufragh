@@ -1,5 +1,6 @@
 import LocalizedStrings from "react-localization";
-const v = "1.0.5";
+import pkg from '../package.json';
+const v = pkg.version;
 let loc = new LocalizedStrings({
   en: {
     theme: "Theme",
